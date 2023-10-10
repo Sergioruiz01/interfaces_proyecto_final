@@ -23,6 +23,25 @@ body {
     display: inline; 
     margin-right: 10px; 
   }
+
+  a {
+    width: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-right: 100px 130px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #f0f0f0; 
+    background-color: #09fd3e;
+  }
+  
+  a:hover{
+  background-color: transparent;
+  border: 2px solid #09fd3e;
+  color: #09fd3e;
+  }
+
   .logo{
     display: flex;
     height: 400px;
